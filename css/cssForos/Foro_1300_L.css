@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (orientation:landscape) {
+.Aviso:before {
+  content: "1300L";
+}
+
+
+
+}/* Landscape */

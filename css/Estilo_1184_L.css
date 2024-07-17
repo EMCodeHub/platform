@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (orientation:landscape) {
+.Aviso:before {
+  content: "1184L";
+}
+
+.LandingD {
+	width: 100%;
+}
+.LandingD2 {
+	width: 90%;
+	padding-top:1%;
+	text-align: center;
+	
+}
+.LandingD3 {
+	
+	text-align:center;
+}
+.listaMenu {
+	       width: 60%;
+	       font-size:0.8em;
+}
+.ficha {  
+	width: 90%;
+}
+.botonPrincipal_fila_izda {  
+	width:15%;
+}
+.botonPrincipal_fila_decha {  
+	width:73%;
+}
+#cabeceras {
+	width: 90%;
+	margin-top: 1.5%;
+	margin-bottom: 1em;
+	margin-left:7.5%;
+}
+
+/* ....ficha del curso -......... */
+.FichaCursoFila {
+  text-align:left;
+}
+.FichaCursoIzda  {	
+	width:20%;
+}
+.FichaCursoDecha {
+    width:75%;
+}
+.FichaCursoIzdaAgenda {
+	width:20%;
+	height:3em;
+}
+.FichaCursoIzdaObservaciones {
+	width:20%;
+
+}
+.FichaCursoIzdaConBordeSuperior  {
+	width: 20%;
+}
+.FichaCursoAgendaDiaTxt {
+	width:30%;
+}
+.FichaCursoAgendaHorarioTxt {
+	width:30%;	
+}
+.FichaCursoAgendaTituloTxt {
+	width:97%;
+	display:block;
+}
+
+#CalendarioLeft {
+   width: 38%;
+   margin: 0px;
+   padding: 0px;
+}
+
+#CalendarioRight {
+   width: 59%;
+   margin-left: 1%;
+}
+
+.Contacto5 {
+    width: 10%;
+ }   
+.Contacto55 {
+    width: 89%;
+ }
+.Contacto40 {
+    width: 100%;
+    display:block;
+ } 
+.NewtituloApartado {
+	font-size:1.5em;
+}
+.NewContenedor100b {
+  padding-left: 8%;
+}
+}

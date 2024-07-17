@@ -1,0 +1,613 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (orientation:landscape) {
+	.Aviso:before {
+  content: "419L";
+}
+#CorrreoCobros {
+ width:100%; 
+ padding-left:0;
+}
+.LandingD {
+	width: 100%;
+}
+.LandingD input {
+       font-size:0.8em;
+}
+.LandingD2 {
+	width: 90%;
+	padding-top:0.4%;
+	text-align: center;
+	
+}
+.LandingD3 {
+	
+	text-align:center;
+}
+
+#TomaDeDatos {
+	margin-left:5%;
+	width:90%;
+	position:absolute;
+}
+.siquiero {
+	width:60%;
+	font-size:1em;
+	margin-left:15%;
+	padding:0.5%;
+	
+}
+.LandingI {
+	font-size:0.9em;
+}
+
+	header nav { 
+		top:4%;
+		width:70%;
+    height: auto;
+		display:none;
+		margin:0px;
+		position: fixed;
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, #040404 , #B9B9BD);    
+	}
+ 
+header nav a {
+   float:left;
+   text-align: left;
+   width: 100%;
+   clear: both;
+   padding-top: 2px;
+   padding-bottom: 1px;
+   padding-left:2%;
+   padding-right;2%;
+   margin-left: 2%;
+   margin-bottom: 1em;
+}	
+ .menu {
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 1em;
+  margin-top: 15px;     
+}
+.menu_bar {
+	display:block;
+	width:100%;
+  padding-top: 0px;  
+  padding-bottom: 0px;
+}
+ 
+
+
+
+
+.bloqueCelda6Centro img{
+  width:50%;
+  height:auto;
+}
+.bloqueCelda88Cursor {
+	width:79%;
+	font-size:0.9em;
+}
+.bloqueCelda6Inicial {
+	width:20%;
+}
+h2 {
+	font-size:0.9em;
+}
+.moduloTituloVT {
+	padding:0.5em;
+	margin-left:1%;
+	font-size:0.9em;
+}
+.bloque_tituloVT {
+
+	font-size:1em;
+}
+.bloque_descriVT {
+	font-size:0.9em;
+} 
+
+.CeldaVideotutorialE {
+	width: 40%;	
+	font-size:1.1em;
+	margin:1%;
+	  padding: 1px;
+}
+.CeldaVideotutorialD {
+	width: 50%;
+	font-size:1em;
+	margin:2%;
+	 padding: 1px;
+}
+
+
+
+
+
+
+#cursosRelacion {
+	font-size:0.7em;
+}
+#cursosCompra {
+	font-size:0.7em;
+}
+.NewCelda_60_izda {  
+	font-size:0.8em;
+}
+.ficha_aula_box_inferior {  /*  cada bloque de información, la página de un apartado concreto: edificios, naves ...  */
+	width: 95%;
+	border-top:hidden;
+	border-left:hidden;
+	border-right:hidden;
+	border-bottom:hidden;
+}
+.celda_10_izdaVT {
+	display: block;
+	width: 100%;
+	clear:both;
+}
+
+.celda_90_dechaVT {
+  float: left;
+	display: block;
+	width: 100%;
+}
+
+.celda_5_izdaVT {
+	width: 5%;
+	padding-top: 1em;	
+	position: relative;	
+}
+.celda_5_izdaVT img{
+	width: 60%;	
+}
+
+.celda_95_dechaVT {
+	width: 95%;
+	font-size:1em;
+}
+.NewAsistenciaTitulo { 
+   font-size:1em;
+
+}
+.NewAsistenciaSubTitulo { 
+   font-size:0.8em;
+   
+ 
+}
+
+.listaMenu {
+	       width: 90%;
+	       font-size:0.7em;
+		   margin-left:15%;
+}
+.item_menu span {	
+	padding-top:0.5em;
+	font-size:0.7em;
+}
+.ficha {  
+	width: 100%;
+}	
+.ficha_fila_imagen img {
+	width: 70%;
+	
+}
+#navegador {
+	display:none;
+}
+
+#header {
+	display:none;
+}
+.ficha_fila {  
+	font-size: 0.7em;
+
+}
+.tituloApartado {
+     font-size:1.1em;
+      -webkit-margin-after: 0px;
+    
+}
+#logoPrincipal {
+	
+  top: 3%;
+	left:1%;
+	
+}
+.celda_10_izda {  /*  .  */
+	margin-top:1em;
+	width: 17%;
+}
+.celda_10_izda_contacto { 
+	width: 10%;
+	margin-left:10%;	
+	
+}
+.celda_90_decha { 	
+	margin-top:0.6em;
+	width: 80%;
+	text-align:left;
+	
+}
+.celda_90_decha_estrecha {  /*  .  */
+	width: 75%;
+	vertical-align:top;
+}
+.celda_40_izda {  
+	display: block;
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.celda_40_izda img{
+	width:80%;
+}
+.celda_30_izda {
+	display: none;
+}
+
+
+.celda_60_decha { 
+	display: block;
+	width: 90%;
+	
+}
+.celda_60_izda {  
+	display: block;
+	width: 100%;	
+}
+.celda_60_izda img{
+	width:80%;
+}
+.celda_40_decha {  
+	float: left;
+	display: block;
+	width: 90%;
+	
+}
+.celda_5_izda { 
+	width: 15%;
+}
+.celda_95_decha { 
+	width: 80%;
+	font-size:0.7em;
+}
+.celda_60_dechaContacto {  /*  .  */
+	width: 90%;
+
+}
+.celda_10_izda_medif { 
+	display: inline;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.celda_10_izda_medif img{ 
+	width:80%;
+}
+.celda_90_decha_medif { 
+	float: left;
+	display: inline;
+	width: 97%;
+	clear:both;
+	margin-top:0px;
+	padding-top:0px;
+	
+}
+.botonPrincipal_fila_izda {  
+	width:22%;
+	display:block;
+}
+
+.botonPrincipal_fila_decha {  
+	width:95%;
+	margin-left:30px;
+}
+.envoltorioMedif{
+	margin-top: 10px;
+	border:none;
+	border-radius:none;	
+	box-shadow:none;	
+}
+.tituloApartado {
+     font-size:1.1em;
+}
+#cabeceras {
+	width: 87%;
+	margin-top: 1.8%;
+	margin-bottom: 1em;
+	margin-left:9%;
+}
+.cabeceras img {
+	width:95%;
+}
+
+#Listener {
+	display:none;
+
+}
+.Adjuntar {
+	font-size:0.9em;
+}
+
+.FichaLista6TXT {	
+	display:none;
+}
+.FichaLista6TXT2 {
+	display:none;
+}
+.FichaLista6CAB {
+	display:none;
+}
+.FichaLista8CAB {
+	display:none;
+}
+.FichaLista8TCAB {
+	width:12%;
+}
+.FichaLista8TXT {
+	display:none;
+}
+.FichaLista8TTXT {
+	width:12%;
+}
+.FichaLista8TXT2 {
+	display:none;
+}
+.FichaLista8TTXT2 {
+	width:12%;
+}
+
+.FichaLista10TXT {
+	display:none;
+}
+.FichaLista10TXT2 {
+	display:none;
+}
+
+.FichaLista10CAB {
+	display:none;
+}
+.FichaLista20TXT {
+	width:70%;
+}
+.FichaLista20TXT2 {
+
+	width:70%;
+}
+.FichaLista20CAB {
+	width:70%;
+}
+.FichaCursoFila {
+  text-align:left;
+}
+.FichaCursoIzda  {	
+	width:20%;
+}
+.FichaCursoDecha {
+    width:75%;
+}
+.FichaCursoIzdaAgenda {
+	width:20%;
+	height:3em;
+}
+.FichaCursoIzdaObservaciones {
+	width:20%;
+
+}
+.FichaCursoIzdaConBordeSuperior  {
+	width: 20%;
+}
+.FichaCursoAgendaDiaTxt {
+	width:45%;
+}
+.FichaCursoAgendaHorarioTxt {
+	width:45%;	
+}
+.FichaCursoAgendaTituloTxt {
+	width:97%;
+	display:block;
+}
+.celda_60_decha object{  
+    min-height: 200px;
+}
+#CalendarioLeft {
+   width: 100%;
+}
+
+#CalendarioRight {
+   width: 100%;
+   
+}
+.AsesoriaCartelE {
+   display: none;
+   min-width:1px;
+}
+.AsesoriaCartelD {
+	width: 98%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.AsesoriaCartelO {
+	width: 98%;
+	text-align: center;
+	margin: 0px;
+	padding: 2%;
+}
+
+#AsesoriasCalendario{
+    width: 100%;
+    margin-left: 0px;
+}
+    .SesionI {
+        width: 15%;
+        font-size: 0.9em; 
+    }
+    .SesionD {
+        width: 80%;
+        font-size: 0.9em;
+  
+    }
+#AsesoriaForm1 {
+       width: 100%; 
+       margin: 0px;
+}
+#AsesoriaForm2 {
+       width: 100%; 
+       margin: 0px;
+       margin-top: 1%;
+}
+#AsesoriaForm3 {
+       width: 100%;
+       margin: 0px;
+       margin-top: 1%; 
+}
+#AsesoriaForm4 {
+       width: 100%;
+       margin: 0px; 
+       margin-top: 1%;   
+}
+.NewContenedorCurso span {
+    font-size: 0.8em;
+    padding: 5px 5px 5px 5px;
+    left: 0px; /* Posicion apartir de la parte izquierda del primer elemento padre con posicion relativa */
+}
+.lipointerArial img {
+width: 100%;
+} 
+.Contacto5 {
+    width: 15%;
+ }   
+.Contacto55 {
+    width: 80%;
+    padding-left:2%;
+ }
+.Contacto40 {
+    width: 100%;
+    display:block;
+ } 
+.NewtituloApartado {
+	font-size:1.1em;
+}
+.sliderUL .parrafos h2 {
+    font-size: 20px;
+    
+}
+.sliderUL .parrafos p {
+    font-size: 15px;
+    
+}
+.ButtonGris {
+	font-size:12px;
+	padding:5px 15px;
+}
+
+.ButtonGrisP {
+	font-size:10px;
+	padding:5px 15px;
+}
+.NewContenedorCursosTotal {
+	width: 100%;
+}
+ .ContenedorCursoIzda {
+	  
+	  height: 130px;
+	  margin-top:1%;
+	  margin-bottom:2%;
+	  margin-left:1%;
+	  margin-right:1%;
+	  padding:2px;
+	  
+}
+
+  .ContenedorCursoDcha { 
+      margin-left: 3%;
+    }
+    
+ .ContenedorCursoDcha h2 {
+     font-size: 1em; 
+}
+.ContenedorCursoDcha h3 {
+       font-size: 0.8em;
+}   
+.ContenedorCursoDcha p {
+        display:none;
+}    
+.ContenedorCursoLinea {
+      width: 100%; 
+  
+}
+.ContenedorCursoDcha .derecha a {
+
+
+
+	color: #ffffff;
+	font-size: 0.9em;
+	font-weight: 500;
+
+       
+        font-size:0.9em;
+
+
+
+} 
+#ListaDeCursosDescontados {
+	font-size:0.8em;  
+}
+.TituloVideotutorialPVT {
+	font-size: 1.5em;
+}
+.Ancho80 {
+    width: 95%;
+    font-size:0.9em;
+}
+.CeldaVideotutorialE {
+	width: 20%;
+	font-size:0.8em;
+}
+.PALegal {
+     margin-left:1em;
+     font-size:0.9em;   
+}  
+.aviso_legal h2 {
+margin-left:1em;
+font-weight:500;   
+}
+.aviso_legal li {
+   margin-left:1em; 
+   font-size:0.9em;   
+}
+.aviso_legal  ul {
+	margin-left:1em;
+}
+.NewContenedor100b {
+  padding-left: 10%;
+}
+.FichaListaFilaRaya {
+	display:none;
+}
+.ficha_fila_presentacion {
+    height: 300px; 
+}
+.ficha_CobrosOtros {  
+	width: 98%;
+}
+.NewCelda_40_Cobro {  
+	font-size:0.9em;
+	width: 25%;
+	margin-left:3px;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+.NewCelda_60_Cobro {  
+	font-size:0.9em;
+	width: 70%;
+	margin-left:3px;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+}

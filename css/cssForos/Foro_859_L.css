@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (orientation:landscape) {
+.Aviso:before {
+  content: "859L";
+}
+ #Perfil {
+    width: 98%;
+    margin-left: 1%; 
+	  top:3%;
+    font-size: 0.9em;
+	/*display:none;*/
+}  
+#Registrarse {
+    width: 98%;
+    margin-left: 1%; 
+	  top:3%;
+    font-size: 0.9em;
+	/*display:none;*/
+}
+    #mensajeRegistro {
+        font-size: 1em;
+    }
+    
+
+
+}/* Landscape */

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (orientation:portrait) {
+.Aviso:before {
+  content: "1300P";
+}
+
+.listaMenu {
+	       width: 50%;
+	       font-size:0.9em;
+}
+.ficha {  
+	width: 85%;
+}
+
+
+}

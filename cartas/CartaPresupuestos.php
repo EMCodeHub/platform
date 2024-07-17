@@ -1,0 +1,1 @@
+Esta es la carta enviada al cliente con copia al gerente de Medif. Es el texto que aparece en el fichero de cartas.

@@ -1,0 +1,472 @@
+@charset "UTF-8";
+/* ***********************************clases para visualizar fichas y listados de cursos******************* */
+
+@media only screen { 
+
+#FichaCursoEnvoltorio {
+	position: relative;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	background-color: #FCEFFF;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+#FichaSeccionCorreoDelCurso {
+	position:relative;
+	display:none;
+    width:100%;
+	z-index:2;
+	margin-top:1em;
+    top: 4%;
+	float:center;
+}
+.FichaTituloCurso {
+	position:relative;	
+	display:block;
+	text-align:center;
+	font-size:1em;
+	font-weight:bolder;
+	color:#603;
+	text-align:center;
+	width:85%;
+	margin:auto;
+	margin-top:0.2em;
+} 
+.ColorTituloCursoParaCiudad {
+  color:#603;
+  font-weight:bolder;
+}
+
+
+.FichaCurso {
+	position: relative;
+	clear: both;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
+	width: 97%;
+	/*background-color: #FFF;*/
+	text-align: center;
+	border: thin solid #666;	
+}
+.FichaCursoFila {
+	position:relative;
+	margin:0 auto;
+	padding-top:0.2em;
+	vertical-align:top;
+	clear:both;
+
+}
+.FichaCursoIzda  {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.3em;
+	padding-right:5px;
+	width:15%;
+	background-color:#00F;
+	color:#FFF;
+	font-size:0.8em;
+	text-align:right;
+	display:inline-block;
+	vertical-align:top;
+	
+}
+.FichaCursoIzdaConBordeSuperior  {
+	position: relative;
+	margin-bottom: 0.2em;
+	padding: 0.3em;
+	padding-right: 5px;
+	width: 15%;
+	background-color: #00F;
+	color: #FFF;
+	font-size: 0.8em;
+	text-align: right;
+	display: inline-block;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FFF;	
+}
+.FichaCursoIzdaAgenda {
+   position:relative;
+	margin:0 auto;
+	
+	padding:0.3em;
+	padding-right:5px;
+	width:15%;
+	background-color:#00F;
+	color:#FFF;
+	font-size:0.8em;
+	text-align:right;
+	vertical-align:top;
+	display:inline-block;
+	height:8em;
+}
+.FichaCursoIzdaObservaciones {
+   position:relative;
+	margin:0 auto;
+	
+	padding:0.3em;
+	padding-right:5px;
+	width:15%;
+	background-color:#00F;
+	color:#FFF;
+	font-size:0.8em;
+	text-align:right;
+	vertical-align:top;
+	display:inline-block;
+	height:2em;
+}
+.FichaCursoDecha {
+	
+	position:relative;
+	margin:1px;
+	padding:1px;
+    width:83%;
+    font-size:0.8em;
+	display:inline-block;
+	text-align:left;
+	vertical-align:top;
+
+}
+.FichaCursoAgendaDia {
+ 	position:relative;
+	margin-bottom:0.2em;
+	margin-right:1em;
+	padding:0.3em;
+	padding-right:5px;
+	width:100%;
+	background-color:#00F;
+	color:#FFF;
+	font-size:1.1em;
+	text-align:center;
+	display:block;	
+}
+.FichaCursoAgendaHorario {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.3em;
+	padding-right:5px;
+	width:100%;
+	background-color:#00F;
+	color:#FFF;
+	font-size:1.1em;
+	text-align:center;
+	display:block;	
+	
+}
+.FichaCursoAgendaTitulo {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.3em;
+	padding-right:5px;
+	width:100%;
+	background-color:#00F;
+	color:#FFF;
+	font-size:1.1em;
+	text-align:center;
+	display:block;
+	clear:both;	
+}
+.FichaCursoAgendaDiaTxt {
+ 	position:relative;
+	margin-bottom:0.2em;
+	padding:0.3em;
+	padding-right:5px;
+	width:18%;
+	font-size:0.9em;
+	text-align:left;
+	display:inline-block;	
+	vertical-align:top;
+	float:left;
+}
+.FichaCursoAgendaHorarioTxt {
+	position:relative;
+	margin-bottom:0.2em;
+	margin-right:0.2em;
+	margin-left:0.5em;
+	padding:0.3em;
+	padding-right:5px;
+	width:15%;
+	font-size:0.9em;
+	text-align:left;
+	display:inline-block;
+	
+	
+}
+.FichaCursoAgendaTituloTxt {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.3em;
+	padding-right:5px;
+	width:62%;
+	font-size:0.9em;
+	text-align:left;
+	display:inline-block;
+	clear:both;	
+	vertical-align:top;
+}
+/* ....................................*/
+
+
+.btnVerPrograma {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 2px 3px 3px #666666;
+  -moz-box-shadow: 2px 3px 3px #666666;
+  box-shadow: 2px 3px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 1px 20px 1px 20px;
+  text-decoration: none;
+}
+
+.btnVerPrograma:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.contenedorBoton {
+	width:20%;
+	text-align:center;
+	
+}
+/* ......................................estilos para la lista de cursos en la WEB.......................*/
+
+.FichaLista {
+	position: relative;
+	clear: both;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5%;
+	width: 99%;
+	background-color: #FFF;
+	text-align: center;
+	border: thin solid #666;	
+}
+.FichaListaFila {
+	position:relative;
+	margin:0 auto;
+	vertical-align:top;
+	text-align:center;
+	cursor:pointer;
+	clear:both;	
+
+}
+
+.FichaListaFilaNota{
+	margin-left:3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size: 0.9em;
+	font-weight:bold;
+	color:#33F;
+	
+}
+.FichaListaFilaRaya {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom:2em;
+	vertical-align: top;
+	text-align: left;
+	clear: both;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+
+.FichaListaFilaRaya ul{
+	margin-left:3em;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size: 0.8em;
+	
+}
+.FichaLista6TXT {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	
+	width:6%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#D9D9D9;
+}
+.FichaLista6TXT2 {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:6%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#BABABA;
+}
+.FichaLista6CAB {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:6%;
+	background-color:#00F;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:center;
+	display:inline-block;
+	vertical-align:center;
+
+}
+.FichaLista8TXT {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:8%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#D9D9D9;
+	
+}
+.FichaLista8TXT2 {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:8%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#BABABA;
+}
+.FichaLista8CAB {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:8%;
+	background-color:#00F;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:center;
+	display:inline-block;
+	vertical-align:center;
+
+}
+.FichaLista10TXT {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:10%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#D9D9D9;
+}
+.FichaLista10TXT2 {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:10%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#BABABA;
+}
+.FichaLista10CAB {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:10%;
+	background-color:#00F;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:center;
+	display:inline-block;
+	vertical-align:center;
+
+}
+.FichaLista20TXT {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:37%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#D9D9D9;
+}
+.FichaLista20TXT2 {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:37%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:left;
+	display:inline-block;
+	vertical-align:top;
+	background-color:#BABABA;
+}
+.FichaLista20CAB {
+	position:relative;
+	margin-bottom:0.2em;
+	padding:0.1em;
+	padding-right:2px;
+	width:37%;
+	background-color:#00F;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	text-align:center;
+	display:inline-block;
+	vertical-align:center;
+
+}
+
+/* ******************************************************************************************************** */
+} /* only screen */

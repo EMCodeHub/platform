@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (orientation:portrait) {
+	.Aviso:before {
+  content: "668P";
+}
+
+header nav { 
+		top:4%;
+		width:50%;
+    height: auto;
+		display:none;
+		margin:0px;
+		position: fixed;
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, #040404 , #B9B9BD);    
+}
+ 
+header nav a {
+   float:left;
+   text-align: left;
+   width: 100%;
+   clear: both;
+   padding:2%;
+   margin-left: 2%;
+   margin-bottom: 1em;
+}	
+ .menu {
+  float: left;
+  margin-left: 2%;
+  width:100%;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top:5px;        
+}
+.menu_bar {
+	display:block;
+	width:100%;
+  padding-top: 0px;  
+  padding-bottom: 0px;
+}
+ 
+.foroclasefecha {
+    width: 20%;
+        
+ }
+.forocuestionLista {
+        padding-left: 1%;
+        margin-bottom:0.5%;
+        font-size: 0.8em;  
+}
+.MensajePadre {
+      width: 99%;
+      margin-left: 0px;
+      padding:1em;
+      
+    }
+    .MensajeHijo {
+      width: 99%;
+      padding:1em;
+      margin-left: 0.5%;
+      margin-right:0.5%;
+    }
+    
+    .forotemaultifech {
+    	display: block;
+    	float:left;
+      width: 90%;
+    }
+    .forocuestion {
+        font-size: 0.9em;
+ }
+ .EnvoltorioForoClase {
+        width: 99%;
+        margin-left:0.2%;
+    }
+.MensajeRecLinea {
+    	font-size:0.9em;
+}
+ #Perfil {
+    width: 98%;
+    margin-left: 1%; 
+	  top:3%;
+    font-size: 0.9em;
+	/*display:none;*/
+}  
+#Registrarse {
+    width: 98%;
+    margin-left: 1%; 
+	  top:3%;
+    font-size: 0.9em;
+	/*display:none;*/
+}
+#mensajeRegistro {
+        font-size: 1em;
+}
+     
+}/* portrait */

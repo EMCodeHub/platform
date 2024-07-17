@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (orientation:portrait) {
+.Aviso:before {
+  content: "1300P";
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Montserrat-black";
+	text-align: center;
+}
+
+
+body {
+	
+	background-color: #bd8080;
+   }
+
+
+form {
+	padding: 80px 20px;
+	background-color: #ededed;
+	margin-top: 70px;
+	padding-top: 50px;
+	margin-bottom: 30px;
+	width: 70%;
+	text-align: center;
+	margin-left: 250px;
+	margin-right: 250px;
+	font-family: "Montserrat-black"
+	
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444;
+	font-family: "Montserrat-black"
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+	font-family: "Montserrat-black"
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+	font-family: "Montserrat-black"
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgb(8, 121, 51);
+	color: #fff;
+	font-family: "Montserrat-black"
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff;
+	font-family: "Montserrat-black"
+}
+
+
+#mensaje {
+	width: calc(100% - 20px);
+	padding: 10px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 15px;
+	text-align:left;
+	font-family: "Montserrat-black";
+
+}
+
+
+.contienelogo {
+	width:600px;
+	height:200px;
+	line-height:400px;
+	margin:0px auto;
+	text-align:center;
+	vertical-align:middle;
+	
+
+}
+
+
+
+
+
+   .izquierda {
+	text-align:left;
+  }
+
+
+
+
+
+
+
+}

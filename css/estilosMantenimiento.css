@@ -1,0 +1,1999 @@
+@charset "UTF-8";
+/* ************************************************************************************************************************************** */
+/* ********************************CLASES PARA LOS FORMULARIOS DE MANTENIMIENTO********************************************************** */
+
+
+@media only screen { 
+body {
+        margin: 0px;
+        padding: 0px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.ContenedorImagen {
+width: 100%;
+margin: 0;
+padding: 0;
+position: relative;
+display: inline-block;
+text-align: center;
+}
+.ContenedorTotalMantenimiento {
+    font-family: 'Montserrat', sans-serif;
+	width: 70%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}   
+  .ContenedorTotalMantenimiento a {
+        text-decoration: none;
+        color:inherit;
+    }   
+ .ContenedorIzdaMantenimiento {
+	  float:left;
+	  display:inline;
+	  width: 20%;
+	  height: 150px;
+	  margin-top:1%;
+	  margin-bottom:2%;
+	  margin-left:1%;
+	  margin-right:1%;
+	  padding:2px;
+	  text-align:center;
+  	  border:1px;
+	  border-style:solid;
+	  border-color:rgba(067,128,131,0.8);
+	  background-size:cover;
+	  -webkit-box-shadow: 9px 11px 5px 0px rgba(162,162,162,1);
+      -moz-box-shadow: 9px 11px 5px 0px rgba(162,162,162,1);
+      box-shadow: 9px 11px 5px 0px rgba(162,162,162,1);
+
+}
+
+    .ContenedorDchaMantenimiento {
+      float:left;
+	  display:inline;
+	  width: 72%; 
+      margin-left: 5%;
+      margin-top:1%;
+	  margin-bottom:2%;
+      text-align: left;
+    } 
+    .ContenedorDchaMantenimiento h2 {
+        margin-top:0px;
+    }
+    .ButtonGrisM {
+    font-family: 'Montserrat', sans-serif;
+	background-color:transparent;
+	border-radius:28px;
+	border:1px solid #737874;
+	display:inline-block;
+	cursor:pointer;
+	color:#6e6e6e;
+	font-size:17px;
+	padding:9px 31px;
+	text-decoration:none;
+	/*text-shadow:0px 1px 0px #2f6627;*/
+    }
+.ButtonGrisM:hover {
+	background:linear-gradient(to bottom, #b7c4eb 5%, #cfcfcf 100%);
+	background-color:#b7c4eb;
+}
+.ButtonGrisM:active {
+	position:relative;
+	top:1px;
+} 
+.centro {
+	text-align:center;
+}
+.derecha {
+	text-align:right;
+}
+.derecha2 {
+	text-align:right;
+    margin-right: 5%;
+}
+.derecha3 {
+	text-align:right;
+    padding-right: 0.5%;
+}
+.rowActividadA {
+   cursor:pointer;     
+}
+#enviosAnteriores {
+        display: inline;
+}
+#MensajeCarta1 {
+    width: 90%;
+    margin-left: 5%;
+    margin: 2%;
+    display: none;
+    color: #1616E7;
+    font-family:Arial;
+	font-size:1.2em;
+    text-align: center;
+        
+}
+#MensajeCarta2 {
+    width: 90%;
+    margin-left: 5%;
+    margin: 2%;
+    display: none;
+    color: #1616E7;
+    font-family:Arial;
+	font-size:1.2em;
+    text-align: center;
+        
+}
+#MensajeCarta3 {
+    width: 90%;
+    margin-left: 5%;
+    margin: 2%;
+    display: none;
+    color: #1616E7;
+    font-family:Arial;
+	font-size:1.2em;
+    text-align: center;
+        
+}
+#MensajeCarta4 {
+    width: 90%;
+    margin-left: 5%;
+    margin: 2%;
+    display: none;
+    color: #F30836;
+    font-family:Arial;
+	font-size:1.2em;
+    text-align: center;
+        
+}
+#MensajeCarta5 {
+    width: 90%;
+    margin-left: 5%;
+    margin: 2%;
+    display: none;
+    color: #1002F4;
+    font-family:Arial;
+	font-size:1.2em;
+    text-align: center;
+        
+}
+#Resultado2 {
+    width: 90%;
+    font-family:Arial;
+	font-size:1.2em;
+	margin-left: 0%;
+
+}
+.pocoEspacio {
+    height: 1em;    
+}
+.pocoEspacio10 {
+   
+    margin-bottom: 20px;
+}
+.BotonGenerico {
+	width: 180px;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #A6AEC9 5%, #5E7A9D 100%);
+	background-color:#7892c2;
+	border-radius:2px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:0px;
+	text-decoration:none;
+    text-align: center;
+	text-shadow:0px 1px 0px #283966;
+    vertical-align: middle;
+}
+.TituloLista {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:1.5 em;
+}
+.ClassVarcharMayor{
+	width: 300px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #CCC;
+	overflow: auto;
+	margin-left:10px;		
+}
+.ClassVarcharMenor{
+	width: 100px;
+	float: left;
+	text-align:left;
+	padding-left: 21 px;
+	color: #030;
+	background-color: #CCC;
+	margin-left:10px;	
+}
+.ClassNumberMayor{
+	width: 40px;
+	float: left;
+	text-align:right;
+	position: relative;
+	background-color: #CCC;
+	margin-left:10px		
+	}
+.ClassNumberMenor{
+	width: 40px;
+	float: left;
+	text-align:right;
+	position: relative;
+	padding-left: 21 px;
+	background-color: #CCC;
+	margin-left:10px;	
+	
+}
+.ClassDate{
+	width: 70px;
+	float: left;
+	text-align:left;
+	position: relative;
+	padding-left: 21 px;
+	margin-left:10px;
+	background-color: #CCC;
+}
+
+.ClassCABVarcharMayor{
+	width: 300px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #FFF;
+	background-color: #000;
+	overflow: auto;
+	margin-left:10px;	 
+	
+}
+.ClassCABVarcharMenor{
+	width: 130px;
+	float: left;
+	text-align:left;
+	padding-left: 20 px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(184, 206, 217);
+	margin-left:5px;	
+
+}
+
+
+.ClassDefinitiva{
+	width: 130px;
+	float: left;
+	text-align:left;
+	padding-left: 20 px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(184, 206, 217);
+	margin-left:5px;	
+
+}
+
+
+.ClassCABVarcharMenorr{
+	width: 130px;
+	float: left;
+	text-align:left;
+	padding-left: 20 px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(196, 181, 181);
+	margin-left:5px;	
+
+}
+
+.ClassCABVarcharMenor2{
+	width: 130px;
+	float: left;
+	text-align:left;
+	padding-left: 20 px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(196, 190, 190);
+	margin-left:5px;	
+
+}
+
+.ClassCABVarcharMenor3{
+	width: 130px;
+	float: left;
+	text-align:left;
+	padding-left: 20 px;
+	color: #FFF;
+	background-color: #000;
+	margin-left:5px;	
+
+}
+
+.ClassCABVarcharMenor4{
+	width: 130px;
+	float: left;
+	text-align:left;
+	padding-left: 20 px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(196, 190, 190);
+	margin-left: 5px;	
+
+}
+
+
+.ClassCABNumberMayor{
+	width: 40px;
+	float: left;
+	text-align:right;
+	position: relative;
+  color: #FFF;
+	background-color: #000;
+	margin-left:10px	
+
+	}
+.ClassCABNumberMenor{
+	width: 40px;
+	float: left;
+	text-align:right;
+	position: relative;
+	padding-left: 21 px;
+	color: #FFF;
+	background-color: #000;
+
+	margin-left:10px;	
+	
+	
+}
+.ClassCABDate{
+	width: 70px;
+	float: left;
+	text-align:left;
+	position: relative;
+	padding-left: 21 px;
+	margin-left:10px;
+  color: #FFF;
+	background-color: #000;	
+}
+
+
+.Separador{
+	float: left;
+	height: 10px;
+	width: 2000px;
+	font-size: 4px;
+	clear: both;
+}
+
+.TituloTablaUsuario{
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:center;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaPermisos{
+    width: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:center;
+	float: left;
+	position:relative;
+		
+}
+.rowCabeceraUsuario{
+	width: 900px;
+	height: 12px;
+	position: relative;
+	color: #06F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-bottom:4px;	
+}	
+.rowOpcionesMenu{
+	width: 1200px;
+	height: 12px;
+	position: relative;
+	color: #06F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-bottom:4px;	
+}
+.rowCabeceraEmail{
+	width: 1900px;
+	height: 12px;
+	position: relative;
+	color: #06F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-bottom:4px;	
+}	
+.rowCabeceraCursos{
+	width: 4500px;
+	height: 12px;
+	position: relative;
+	color: #06F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-bottom:8px;
+	clear:both;	
+}	
+.rowCabeceraVTCursos{
+	width: 9000px;
+	height: 12px;
+	position: relative;
+	color: #06F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-bottom:8px;
+	clear:both;	
+}	
+.rowCabeceraAlumnos{
+	width: 4000px;
+	height: 12px;
+	position: relative;
+	color: #06F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-bottom:8px;
+	clear:both;	
+}
+.rowCabeceraAsesoria{
+	width: 2200;
+	height: 12px;
+	position: relative;
+	color: #06F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-bottom:8px;
+	clear:both;	
+}
+.rowCurso {
+	width: 4500px;
+	height: 30px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom:2px;
+	clear:both;	
+}
+.rowVTCurso {
+	width: 9000px;
+	height: 30px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom:2px;
+	clear:both;	
+}
+.rowAlumno {
+	width: 4000px;
+	height: 30px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom:2px;
+	clear:both;	
+}
+.rowAsesoria {
+	width: 2200px;
+	height: 30px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom:2px;
+	clear:both;	
+}
+.rowElementoUsuario{
+	width: 900px;
+	height: 22px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;	
+}	
+.rowElementoEmail{
+	width: 1900px;
+    
+	height: 42px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;
+    clear: both;
+}	
+.rowElementoTipoAlumno{
+	width: 1500px;
+	height: 40px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;	
+}	
+.rowCabeceraOrganizador{
+	width: 2200px;
+	height: 12px;
+	position: relative;
+	color: #06F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	margin-bottom:8px;	
+}	
+.rowElementoOrganizador{
+	width: 1800px;
+	height: 22px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;	
+}	
+.rowEtiquetaTextArea{
+	width: 900px;
+	height: 112px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	margin-top:1px;
+}
+.rowEtiquetaTextAreaG{
+	width: 900px;
+	height: 320px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	margin-top:1px;
+}
+.rowEtiquetaAlta{
+	width: 900px;
+	height: 100px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+}
+.rowEtiquetaBaja{
+	width: 900px;
+	height: 30px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	margin-top:1px;
+
+}
+.ClassVarcharEtiquetaTextArea{
+	width: 120px;
+	height:95px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #FCF;
+	overflow: auto;
+	margin-left:10px;	
+	clear:boot;	
+}
+.ClassVarcharEtiquetaTextAreaG{
+	width: 120px;
+	height:300px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #FCF;
+	overflow: auto;
+	margin-left:10px;	
+	/*clear:boot;	*/
+}   
+.ClassVarcharDatosAlta{
+	width: 750px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #CCC;
+	overflow: auto;
+	margin-left:10px;	
+	
+	 
+	
+		
+}
+.ClassVarcharDatosBaja{  
+	width: 750px;
+	
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #CCC;
+	overflow: auto;
+	margin-left:10px;			
+}
+.TituloRegistro{
+	float:left;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:center;
+	margin-bottom:8px;
+		
+}
+.TituloCurso{
+	float:left;
+  width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:center;
+	margin-bottom:8px;
+		
+}
+.ClassVarcharEtiquetaXL{
+	width: 120px;
+	float: left;
+	text-align:left;
+	padding-left: 21 px;
+	color: #030;
+	background-color: #FCF;
+	margin-left:10px;	
+}
+.ClassVarcharEtiquetaAlta{
+	width: 120px;
+	float: left;
+	text-align:left;
+	padding-left: 21 px;
+	color: #030;
+	background-color: #FCF;
+	margin-left:10px;	
+	
+	
+	
+}
+.ClassVarcharEtiquetaBaja{
+	width: 120px;
+	float: left;
+	text-align:left;
+	padding-left: 21 px;
+	color: #030;
+	background-color: #FCF;
+	margin-left:10px;	
+	
+	
+	
+}
+.ClassVarcharDatosAlta{
+	width: 600px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #CCC;
+	overflow: auto;
+	margin-left:10px;	
+	
+	 
+	
+		
+}
+.ClassVarcharDatosBaja{
+	width: 750px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #CCC;
+	overflow: auto;
+	margin-left:10px;	
+		
+}
+
+.ClassVarcharDatosTextArea{
+	width: 750px;
+	height:110px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #CCC;
+	overflow: auto;
+	margin-left:10px;	
+	padding-left: 21 px;	
+}
+.ClassVarcharDatosTextAreaG{
+	width: 750px;
+	height:310px;
+	position: relative;
+	float: left;
+	text-align:left;
+	color: #030;
+	background-color: #CCC;
+	overflow: auto;
+	margin-left:10px;	
+	padding-left: 21 px;
+	 
+	
+		
+}
+    
+.ClassVarcharDatos{
+	width: 300px;
+	position: relative;
+	float: left;
+	text-align:left;
+	padding-left: 21 px;
+	color: #FFF;
+	background-color: #CCC;
+	margin-left:10px;
+}
+.ClassVarcharEtiqueta{
+	width: 120px;
+	float: left;
+	text-align:left;
+	padding-left: 21 px;
+	color: #FFF;
+	background-color: #FCC;
+	margin-left:10px;
+}
+/* ************************************************************************************************************************************** */
+
+.TituloTablaSubfichero{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:center;
+	float: left;
+	position:relative;
+		
+}
+.TituloOpcionesMenu{
+    width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:center;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaEmail{
+    width: 1900px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:center;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaOrganizador{
+    width: 1800px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaCurso{
+    width: 4250px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaVTCurso{
+    width: 7000px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaVTModulo{
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaVTBloque{
+    width: 1330px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaFacturaM{
+    width: 1630px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaAlumno{
+    width: 3500px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.TituloTablaAsesoria{
+    width: 2200px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.envoltorioSubfichero{
+	width: 500px;
+	position: relative;
+	font-size: 12px;
+	float:left;
+	
+}
+	.envoltorioPaisIso{
+	width: 800px;
+	position: relative;
+	font-size: 12px;
+	float:left;
+	
+}
+.envoltorioOpcionesMenu{
+	width: 1200px;
+	position: relative;
+	font-size: 12px;
+	float:left;
+	
+}
+.envoltorioEmail{
+	width: 1900px;
+	position: relative;
+	font-size: 12px;
+	float:left;
+	
+}
+.envoltorioOrganizador{
+	width: 1500px;
+	position: relative;
+	font-size: 12px;
+	float:left;
+	
+}
+.envoltorioCursos{
+	width: 4000px;
+	position: relative;
+	font-size: 12px;
+	float:left;
+	
+}
+.envoltorioAsesoria{
+	width: 2200;
+	position: relative;
+	font-size: 12px;
+	float:left;
+	
+}
+.informacionFicheros{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	float:left;
+	
+}
+.clear  {clear: both;
+	margin:0px;
+	padding:0px;
+}
+.rojo {
+	color:#F03;
+	font-weight:bold;
+}
+.rojoGordo {
+	color:#F03;
+	font-weight:bold;
+    font-size: 2em;
+}
+.azul {
+	color:#1428E5;
+	font-weight:bold;
+}
+.negreta {
+	color:#0E0F0F;
+	font-weight:bold;
+}
+.rosa {
+	color:#EE26C1;
+	font-weight:bold;
+}
+	.arial {
+	 font-family:Arial, Helvetica, sans-serif;	
+	}
+	.arialpeq {
+	 font-family:Arial, Helvetica, sans-serif;
+	  font-size: 0.9em;
+	}
+	.arialpeq8 {
+	 font-family:Arial, Helvetica, sans-serif;
+	  font-size: 0.8em;
+	}
+
+
+/* ************************************************************************************************************************************** */
+/* ************************************************************************************************************************************** */
+.gris {
+	text-align:center;
+	background-color:#999;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:1%;
+	margin-bottom:10px;
+	margin-right:10px;
+	width:98%;
+}
+.fondoAzul {
+	text-align:center;
+	background-color:#2158EF;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:1%;
+	margin-bottom:10px;
+    margin-right:10px;
+	width:98%;
+}
+.etiqueta {
+	text-align:left;
+	padding-left:1%;
+	background-color:#F90;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	width:20%;
+	float:left;
+	display:inline;
+	margin-top:10px;
+	margin-bottom:3px;
+	font-size:0.9em;
+	
+}
+.etiquetaDatos {
+	padding-left:1%;
+	margin-top:10px;
+	float:right;
+	display:inline;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	width: 78%;
+}
+.contador {
+	width:10%;
+	float:left;
+	padding:2px;
+	
+	text-align:right;
+}
+.pagina {
+	width:70%;
+	float:left;
+	margin-left:2px;
+	padding:2px;
+}
+.tiempo {
+	width:10%;
+	float:left;
+	margin-left:2px;
+	padding:2px;
+	
+	text-align:right;
+}
+.contadorT {
+	width:10%;
+	float:left;
+	background-color:#999;
+	color:#FFF;
+    font-size:0.9em;
+	font-weight:bold;
+	padding:2px;
+	font-family:Arial, Helvetica, sans-serif;	
+	
+}
+.paginaT {
+	width:70%;
+	float:left;
+	margin-left:2px;
+	background-color:#999;
+	color:#FFF;
+    font-size:0.9em;
+	font-weight:bold;
+	padding:2px;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.tiempoT {
+	width:10%;
+	float:left;
+	margin-left:2px;
+	background-color:#999;
+	color:#FFF;
+    font-size:0.9em;
+	font-weight:bold;
+	padding:2px;
+	font-family:Arial, Helvetica, sans-serif;		
+}
+.CursoTitulo {
+	width:92%;
+	float:left;
+	margin-left:2px;
+	margin-bottom:5px;
+	background-color:#999;
+	color:#FFF;
+    font-size:0.9em;
+	font-weight:bold;
+	padding:2px;
+	text-align:center;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.cursoElementoT {
+	width:30%;
+	background-color:#CCC;
+	color:#FFF;
+	display:inline;
+	float:left;
+	margin-right:5px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:3%;
+	padding-left: 5px;	
+	
+}
+.cursoValoresT {
+    width:10%;
+	background-color:#CCC;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:5px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	padding-right:5px; 
+	
+}
+.cursoElemento {
+	width:30%;
+	display:inline;
+	float:left;
+	margin-right:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:5px;	
+	margin-left:3%;
+	padding-left: 5px;	
+	
+}
+.cursoValores {
+    width:10%;
+    display:inline;
+	float:left;
+	margin-right:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	padding-right:5px;
+	margin-bottom:5px;	 
+}
+.AccesoApartado {
+	width:98%;
+	float:left;
+	margin-left:2px;
+	margin-bottom:5px;
+	background-color:#999;
+	color:#FFF;
+    font-size:0.9em;
+	font-weight:bold;
+	padding:2px;
+	text-align:center;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+
+.AccesoTituloG {
+	width:98%;
+	float:left;
+	margin-left:2px;
+	margin-bottom:5px;
+	background-color:#FC0;
+	color:#FFF;
+    font-size:0.9em;
+	font-weight:bold;
+	padding:2px;
+	text-align:center;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.AccesoRaya {
+	width:98%;
+	float:left;
+	margin-left:2px;
+	margin-bottom:5px;
+	margin-left:5px;
+	background-color:#FC0;
+	color:#FFF;
+    font-size:0.9em;
+	height:2px;
+}
+.AccesoCheckRaya {
+	width:98%;
+	float:left;
+	margin-top:3px;
+	margin-left:0px;
+	margin-bottom:5px;
+	margin-left:5px;
+	background-color:#FF80C0;
+	color:#FFF;
+    font-size:0.9em;
+	height:2px;
+}
+
+.AccesoNumT { 
+    width:6%;
+	background-color:#FC0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	padding-right:2px; 
+	font-size:0.9em;
+}
+.AcesoTipoT { 
+    width:8%;
+	background-color:#FC0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoTituloT { 
+    width:45%;
+	background-color:#FC0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoFechaT { 
+    width:16%;
+	background-color:#FC0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoFacGenericoT { 
+    width:14%;
+	background-color:#FF8000;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoFacGenericoObsT { 
+    width:40%;
+	background-color:#FF8000;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoCheckGenericoT { 
+    width:14%;
+	background-color:#FF80C0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+
+.AccesoCheckGenerico2T { 
+    width:20%;
+	background-color:#FF80C0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+
+.AccesoCheckGenericoObsT { 
+    width:34%;
+	background-color:#FF80C0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+
+.AccesoGenericoObsT { 
+    width:40%;
+	background-color:#FC0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+
+.AccesoIPT { 
+    width:14%;
+	background-color:#FC0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+
+
+
+.AccesoNum { 
+    width:6%;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	padding-right:2px; 
+	font-size:0.9em;
+}
+.AcesoTipo { 
+    width:8%;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoTitulo { 
+    width:45%;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoFecha { 
+    width:16%;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoGenerico { 
+    width:14%;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.AccesoGenericoT { 
+    width:14%;
+	background-color:#FC0;
+	color:#FFF;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+
+.AccesoGenericoNum { 
+    width:14%;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	padding-left:2px;
+	padding-right:2px; 
+	font-size:0.9em;
+}
+
+.AccesoGenerico2 { 
+    width:20%;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+
+.AccesoGenericoObs { 
+    width:34%;
+    display:inline;
+	float:left;
+	margin-right:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+
+.AccesoIP { 
+    width:14%;
+    display:inline;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding-left:2px; 
+	font-size:0.9em;
+}
+.TituloEstadistica {
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:1.5 em;
+	text-align:center;
+}
+#cabeceraEstadistica {
+    width:80%;
+	float:left;
+	margin-left:10%;
+	margin-bottom:5px;
+	background-color:#F90;
+	color:#333;
+    font-size:0.9em;
+	padding:2px;
+	text-align:center;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+
+.GratisCabeceraG {
+    width:80%;
+	float:left;
+	margin-left:10%;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:#96F;
+	color:#FFF;
+    font-size:0.9em;
+	padding:2px;
+	text-align:center;	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+#Recalculo {
+	display:none;
+}
+#envoltorioEstadistica {
+	width:80%;
+	margin-left:10%;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:1em;
+}
+.LeadCabeceraG {
+    width:80%;
+	float:left;
+	margin-left:10%;
+	margin-top:5px;
+	margin-bottom:5px;
+	background-color:#999;
+	color:#FFF;
+    font-size:0.9em;
+	padding:2px;
+	text-align:center;	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadPais1T {
+    width:30%;
+	float:left;
+	margin-left:15%;
+	margin-top:2px;
+	margin-bottom:2px;
+	background-color:#CCC;
+	color:#FFF;
+    font-size:0.8em;
+	padding:2px;
+	text-align:left;	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadNumero1T {
+    width:10%;
+	float:left;
+	margin-left:2px;
+	margin-top:2px;
+	margin-bottom:2px;
+	background-color:#CCC;
+	color:#FFF;
+    font-size:0.8em;
+	padding:2px;
+	text-align:right;	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadPais1 {
+    width:30%;
+	float:left;
+	margin-left:15%;
+	margin-top:1px;
+	margin-bottom:1px;
+    font-size:0.9em;
+	padding:2px;
+	text-align:left;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadNumero1 {
+    width:10%;
+	float:left;
+	margin-left:2px;
+	margin-top:1px;
+	margin-bottom:1px;
+    font-size:0.9em;
+	padding:2px;
+	text-align:right;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+/* ************************************************************************************************************************************** */
+.EstadPais2T {
+    width:15%;
+	float:left;
+	margin-left:12%;
+	margin-top:2px;
+	margin-bottom:2px;
+	background-color:#CCC;
+	color:#FFF;
+    font-size:0.8em;
+	padding:2px;
+	text-align:left;	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadPagina2T {
+    width:30%;
+	float:left;
+	margin-left:2px;
+	margin-top:2px;
+	margin-bottom:2px;
+	background-color:#CCC;
+	color:#FFF;
+    font-size:0.8em;
+	padding:2px;
+	text-align:left;	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadNumero2T {
+    width:10%;
+	float:left;
+	margin-left:2px;
+	margin-top:2px;
+	margin-bottom:2px;
+	background-color:#CCC;
+	color:#FFF;
+    font-size:0.8em;
+	padding:2px;
+	text-align:right;	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadPais2 {
+    width:15%;
+	float:left;
+	margin-left:12%;
+	margin-top:1px;
+	margin-bottom:1px;
+    font-size:0.8em;
+	padding:2px;
+	text-align:left;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadPagina2 {
+    width:30%;
+	float:left;
+	margin-left:1px;
+	margin-top:1px;
+	margin-bottom:1px;
+    font-size:0.8em;
+	padding:2px;
+	text-align:left;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.EstadNumero2 {
+    width:10%;
+	float:left;
+	margin-left:1px;
+	margin-top:1px;
+	margin-bottom:1px;
+    font-size:0.8em;
+	padding:2px;
+	text-align:right;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+
+.TituloTablaForoC{
+    width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+
+  .TituloTablaForoCues{
+    width: 1540px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color:#FC0;
+	text-align:left;
+	float: left;
+	position:relative;
+		
+}
+.CPFechaT {
+	width:13%;
+	background-color:#EF9C28;
+	color:#FFF;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+	margin-left:2px;
+	padding-left: 2px;
+    text-align: left;
+
+}
+    
+.CPUconexionT {
+	width:8%;
+	background-color:#EF9C28;
+	color:#FFF;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:  0.9em;
+	margin-left:2px;
+	padding-left: 2px;
+    text-align: left;
+}
+.CPDiasT {
+	width:5%;
+	background-color:#EF9C28;
+	color:#FFF;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:  0.9em;
+	margin-left:2px;
+	padding-right: 2px;	
+    text-align: right;
+}
+.CPemailT {
+	width:22%;
+	background-color:#EF9C28;
+	color:#FFF;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:  0.9em;
+	margin-left:2px;
+	padding-left: 2px;
+    text-align: left;
+    
+}      
+.CPermisosT {
+	width:18%;
+	background-color:#EF9C28;
+	color:#FFF;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:  0.9em;
+	margin-left:2px;
+	padding-left: 2px;	
+    text-align: left;
+    
+}     
+ .CPNombreT {
+	width:10%;
+	background-color:#EF9C28;
+	color:#FFF;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:  0.9em;
+	margin-left:2px;
+	padding-left: 2px;
+    text-align: left;
+     
+}    
+.CPApellidosT {
+	width:15%;
+	background-color:#EF9C28;
+	color:#FFF;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:  0.9em;
+	margin-left:2px;
+	padding-left: 2px;
+    text-align: left;
+    
+}     
+.CPFechaD {
+	width:13%;
+	color:#000000;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+	margin-left:2px;
+	padding-left: 2px;
+    text-align: left;
+}
+    
+.CPUconexionD {
+	width:8%;
+	color:#000000;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:   1em;
+	margin-left:2px;
+	padding-left: 2px;	
+    text-align: left;
+}
+.CPDiasD {
+	width:5%;
+	color:#000000;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:   1em;
+	margin-left:2px;
+	padding-right: 2px;	
+    text-align: right;
+}
+.CPemailD {
+	width:22%;
+	color:#000000;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:   1em;
+	margin-left:2px;
+	padding-left: 2px;	
+    text-align: left;
+}      
+.CPermisosD {
+	width:18%;
+	color:#000000;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:   1em;
+	margin-left:2px;
+	padding-left: 2px;	
+    text-align: left;
+}     
+ .CPNombreD {
+	width:10%;
+	color:#000000;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:   1em;
+	margin-left:2px;
+	padding-left: 2px;	
+     text-align: left;
+     overflow: hidden;
+}    
+ .CPApellidosD {
+	width:15%;
+	color:#000000;
+	display:inline;
+	float:left;
+	margin-right:2px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size:   1em;
+	margin-left:2px;
+	padding-left: 2px;	
+    text-align: left;
+    overflow: hidden;
+}     
+.rowCartaAlumno {
+	width: 1000px;
+	height: 15px;
+	position: relative;
+	color: #030;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float:left;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom:1px;
+	clear:both;	
+}  
+.rowEtiquetaMensajes{
+	width: 900px;
+	text-align: center;
+    font-size: 1em;
+    margin-top: 5px;
+    }
+.mensaGeneral {
+     height: 10px;   
+}
+#procesandoAceptacion {
+display: none;
+}
+#botonesCerrar {
+  display: none;      
+}
+ /*........para estadistica cursos*/
+#resultado {
+    width: 90%;
+    margin-left: 5%;
+} 
+#resultado2 {
+        
+    width: 1850px;  
+}   
+#GenerarCSV, #botonSalidaCSV {
+        display: none;
+}
+    
+.EstEvFila, .EstEvCabecera {
+width: 1850px;
+font-family:Arial;
+font-size: 1em;
+display:block;
+margin-left: 2px;  
+padding-top:1px;
+padding-bottom: 1px;
+    
+}
+
+.EstEvFila:hover {
+    background-color: #928E8F;    
+}
+
+.EstEvNumericD, .EstEvNumericS, .EstEvNumericC {
+  display: inline-block;
+  float: left;    
+  width: 80px;
+  margin: 2px;
+  padding: 2px;
+  text-align: right; 
+  position:relative;
+}
+.EstEvNumericC, .EstEvNumericS {
+background-color: #2D3038;
+color: #FCF6F6;
+font-size: 0.8em;    
+}
+
+.EstEvNumericVidD, .EstEvNumericVidS, .EstEvNumericVidC {
+  display: inline-block;
+  float: left;  
+  width: 70px;
+  margin: 2px;
+  padding: 2px;
+  text-align: right; 
+}
+.EstEvNumericVidC, .EstEvNumericVidS {
+background-color: #ACA605;
+color: #FCF6F6;
+font-size: 0.8em;        
+}
+.EstEvNumericVidD {
+  background-color: #F0EFD5;      
+}
+.EstEvNumericTemD, .EstEvNumericTemS, .EstEvNumericTemC {
+  display: inline-block;
+  float: left;  
+  width: 70px;
+  margin: 2px;
+  padding: 2px;
+  text-align: right; 
+}
+.EstEvNumericTemC, .EstEvNumericTemS {
+background-color: #B4913B;
+color: #FCF6F6;
+font-size: 0.8em;  
+}
+.EstEvNumericTemD {
+  background-color: #F4EDDC;      
+}
+.EstEvNumericRecD, .EstEvNumericRecS, .EstEvNumericRecC {
+
+ display: inline-block;
+  float:left;
+  width: 70px;
+  margin: 2px;
+  padding: 2px;
+  text-align: right;
+
+}
+.EstEvNumericRecC, .EstEvNumericRecS {
+background-color: #3BB43D;
+color: #FCF6F6;
+font-size: 0.8em;  
+}
+.EstEvNumericRecD {
+ background-color: #D2F5D2;       
+} 
+#SalidaCSV {
+ display: none;  
+ text-align: center;
+ box-shadow: 1px 2px 0px 0px #899599;
+    width:80%;
+	float:left;
+	margin-left:10%;
+margin-bottom: 5px;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:3px;
+	border:1px solid #d6bcd6;
+}
+.premium {
+    font-family: 'Montserrat', sans-serif;
+    font-size:1em;
+    margin-right: 1em;
+    color:#1428E5;
+	font-weight: 300;
+        
+}
+} /* only screen */

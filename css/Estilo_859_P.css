@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media screen and (orientation:portrait) {
+.Aviso:before {
+  content: "859P";
+}
+.LandingD {
+	width: 100%;
+}
+.LandingD2 {
+	
+	width: 90%;
+	padding-top:1%;
+	text-align: center;
+	
+}
+.LandingD3 {
+	
+	text-align:center;
+}
+
+.NewCelda_60_izda {  
+	font-size:0.9em;
+}
+.NewAsistenciaTitulo { 
+   font-size:1.3em;
+
+}
+.NewAsistenciaSubTitulo { 
+   font-size:1em;
+   
+ 
+}
+
+.listaMenu {
+	       width: 60%;
+	       font-size:0.8em;
+}
+.ficha {  
+	width: 99%;
+}
+
+
+.botonPrincipal_fila_izda {  
+	width:15%;
+}
+.botonPrincipal_fila_decha {  
+	width:73%;
+}
+#cabeceras {
+	width: 94%;
+	margin-top: 1.5%;
+	margin-bottom: 0.5em;
+	margin-left:7.5%;
+}
+.item_menu span {
+	padding-top:0.2em;
+}
+/* ....ficha del curso -......... */
+.FichaLista6TXT {	
+	display:none;
+}
+.FichaLista6TXT2 {
+	display:none;
+}
+.FichaLista6CAB {
+	display:none;
+}
+.FichaLista8CAB {
+	display:none;
+}
+.FichaLista8TCAB {
+	width:12%;
+}
+.FichaLista8TXT {
+	display:none;
+}
+.FichaLista8TTXT {
+	width:12%;
+}
+.FichaLista8TXT2 {
+	display:none;
+}
+
+.FichaLista10TXT {
+	display:none;
+}
+.FichaLista10TXT2 {
+	display:none;
+}
+
+.FichaLista10CAB {
+	display:none;
+}
+.FichaLista20TXT {
+	width:70%;
+}
+.FichaLista20TXT2 {
+
+	width:70%;
+}
+.FichaLista20CAB {
+	width:70%;
+}
+.FichaCursoFila {
+  text-align:left;
+}
+.FichaCursoIzda  {	
+	width:20%;
+}
+.FichaCursoDecha {
+    width:75%;
+}
+.FichaCursoIzdaAgenda {
+	width:20%;
+	height:3em;
+}
+.FichaCursoIzdaObservaciones {
+	width:20%;
+
+}
+.FichaCursoIzdaConBordeSuperior  {
+	width: 20%;
+}
+.FichaCursoAgendaDiaTxt {
+	width:30%;
+}
+.FichaCursoAgendaHorarioTxt {
+	width:30%;	
+}
+.FichaCursoAgendaTituloTxt {
+	width:97%;
+	display:block;
+}
+#CalendarioLeft {
+   width: 98%;
+}
+
+#CalendarioRight {
+   width: 90%;
+   margin-left: 5%;
+}
+.AsesoriaCartelE {
+   display: none;
+   min-width:1px;
+}
+.AsesoriaCartelD {
+	width: 98%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+.AsesoriaCartelO {
+	width: 98%;
+	text-align: center;
+	margin: 0px;
+	padding: 2%;
+}
+.Contacto5 {
+    width: 10%;
+ }   
+.Contacto55 {
+    width: 89%;
+ }
+.Contacto40 {
+    width: 100%;
+    display:block;
+ } 
+
+.sliderUL .parrafos h2 {
+    font-size: 50px;
+    
+}
+.sliderUL .parrafos p {
+    font-size: 30px;
+    
+}
+.ButtonGris {
+	font-size:15px;
+	padding:7px 25px;
+}
+.ButtonGrisP {
+	font-size:12px;
+	padding:5px 15px;
+}
+.NewContenedorCursosTotal {
+	width: 100%;
+}
+ .ContenedorCursoIzda {
+	  
+	  height: 200px;
+	  margin-top:1%;
+	  margin-bottom:2%;
+	  margin-left:1%;
+	  margin-right:1%;
+	  padding:2px;
+	  
+}
+
+  .ContenedorCursoDcha { 
+      margin-left: 3%;
+    }
+    
+ .ContenedorCursoDcha h2 {
+     font-size: 1.3em; 
+}
+.ContenedorCursoDcha h3 {
+       font-size: 0.9em;
+}      
+.ContenedorCursoDcha p {
+        font-size:0.9em;
+} 
+.ContenedorCursoLinea {
+      width: 100%; 
+  
+}
+.NewContenedor100b {
+  padding-left: 5%;
+}
+}/* portrait */

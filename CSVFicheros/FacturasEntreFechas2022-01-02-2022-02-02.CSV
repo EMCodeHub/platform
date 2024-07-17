@@ -1,0 +1,22 @@
+../CSVFicheros/FacturasEntreFechas2022-01-02-2022-02-02.CSV
+
+Facturas Emitidas
+ID;TIPO;EMAILCLIENTE;PAIS;FECHA;B. iMPONIBLE;IVA;IMPORTE;GASTOS;ORDEN NUM;N. FACTURA
+169;CURSO;ebgozzero@gmail.com;PER;2022-01-07;145;0;145;0;252103110626;252103110625
+170;CURSO;duvanm2@outllook.es;COL;2022-01-11;145;0;145;0;252122739243;252122739242
+34;LINK-PAGO;m.moran.hdz@gmail.com;MEX;2022-01-07;120;0;120;0;252103001834;252103001833
+35;LINK-PAGO;abelramos10@gmail.com;DOM;2022-01-14;290;0;290;0;252140989577;252140989576
+36;LINK-PAGO;sando240c@gmail.com;COL;2022-01-27;72;0;72;0;252238702173;252238702172
+37;LINK-PAGO;sando240c@gmail.com;COL;2022-01-27;36;0;36;0;252238995828;252238995827
+38;LINK-PAGO;sando240c@gmail.com;COL;2022-01-27;37;0;37;0;252239011093;252239011092
+
+
+
+Facturas Recibidas
+ID;TIPO;PROVEEDOR;PAIS;FECHA;B. IMPONIBLE;IVA;IMPORTE; ;N. FACTURA
+
+
+Ahora hay que Obtener el CSV de la liquidacion con 2checkout para identificar gastos de las facturas emitidas
+Consiste en identificar a que facturas corresponden los paquetes de pago checkout 
+La diferencia de importe, se debe de corregir en esta hoja, cargando gastos a una factura 
+Cada pago checkout son 2 Euros de cargo adicional 
