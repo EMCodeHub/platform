@@ -14,7 +14,7 @@ $fechareg = date("y/m/d");
 
 
 
-$conexion = mysqli_connect("qth840.medifestructuras.com", "qth840", "ZypMidZf22", "qth840");
+$conexion = mysqli_connect("", "", "", "");
 
 mysqli_query($conexion,"SET SESSION sql_mode = 'NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'");
 

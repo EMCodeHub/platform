@@ -1,6 +1,6 @@
 
 <?php
-$conexion = mysqli_connect("qth840.medifestructuras.com", "qth840", "ZypMidZf22", "qth840");
+$conexion = mysqli_connect("", "", "", "");
 
 
 //mysqli_options($mysqlconn, MYSQLI_INIT_COMMAND, 'SET @@SESSION.sql_mode = NO_ENGINE_SUBSTITUTION');

@@ -1,7 +1,7 @@
 
 <?php
 
-$conexion = mysqli_connect("qth840.medifestructuras.com", "qth840", "ZypMidZf22", "qth840");
+$conexion = mysqli_connect("", "", "", "");
 
 mysqli_set_charset ( $conexion , 'utf8' );
 
